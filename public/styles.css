@@ -1,10 +1,17 @@
 body {
+    font-size: 24px;
+    color: deeppink;
+    background-color: aqua;
+    text-shadow: 2px, 2px, 10px, chartreuse;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 h1 {
-}
-
-p {
+    font-size: 32px;
+    font-weight: bold;
+    color: deeppink;
+    text-shadow: 2px, 2px, 2px, chartreuse;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .hidden {
