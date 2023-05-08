@@ -13,7 +13,10 @@ h1 {
 }
 
 p {
-
+    font-size: 24px;
+    font-weight: bold;
+    color:fuchsia;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .hidden {
