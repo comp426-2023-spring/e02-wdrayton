@@ -2,16 +2,16 @@
 // on whether or not the #opponent checkbox is checked
 function showHideShots() {
     // Get the info from the checkbox
-          let check = document.getElementById('opponent');
+        let check = document.getElementById('opponent');
     // Check if the checkbox is checked and show or hide options accordingly
         if (check.checked == true) {
     // Here, instead of just showing all of the options, use similar logic to 
     // check which of the game radio buttons is checked and show only those
     // options relevant to the game being selected (rps or rpsls). You can 
     // use similar jQuery 
-            $('.shots').show()
+            $('shots rpsls').show()
         } else {
-            $('.shots').hide()
+            $('shots rpsls').hide()
         }
     }
     // This function clears the input form and also resets the shot selection
