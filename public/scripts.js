@@ -19,6 +19,7 @@ function showHideShots() {
     function startOver () {
         document.getElementById('userinput').reset();
         showHideShots();
+        hideResult();
     }
     
     async function playGame () {
@@ -43,7 +44,18 @@ function showHideShots() {
         let result = await response.json()
         // Log the result
         console.log(result)
+        showResult();
+        document.getElementById("computerChose") = ("Computer chose " + result.opponent + ".");
+        document.getElementById("gameResult") = ("You " = result.result + "!");
         // Here you should include code that uses the DOM API or jQuery to 
         // manipulate another block of HTML in the interface to display the 
         // results in some way. 
+    }
+
+    async function showResult() {
+        $('p').show();
+    }
+
+    async function hideResult() {
+        $('p').hide();
     }
