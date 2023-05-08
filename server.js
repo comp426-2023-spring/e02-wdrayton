@@ -1,4 +1,3 @@
-import minimist from 'minimist';
 import {playRPS} from "./lib/rpsls.js";
 import {playRPSLS} from "./lib/rpsls.js";
 import express from 'express';
